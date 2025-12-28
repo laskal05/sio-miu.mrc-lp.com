@@ -1,0 +1,11 @@
+loadJimdoWebJsonp([99],{1486:function(e,t,n){(function(e){/*!
+ * @jimdo/angular-fontselect-typesquare v0.0.0
+ * https://github.com/Jimdo/angular-fontselect-typesquare
+ *
+ * TypeSquare Plugin for Angular Fontselect
+ *
+ * Copyright 2017, Jimdo GmbH
+ * Released under the MIT license
+ */
+!function(e,t){e(function(n){"use strict";function r(e){for(var t=e.split(""),n="",r=null,a=0,c=t.length;a<c;a++)r=e[a],n.indexOf(r)<0&&(n+=r);return n}function a(){return g=[],v={},n("body *").each(function(){var e=n(this),t=e.css("font-family");if("string"==typeof t&&t.indexOf(d)>=0){g.indexOf(t)<0&&(v[t]="",g.push(t));var a="";switch(e.prop("tagName")){case"INPUT":a=e.val();break;case"MENUITEM":a=e.prop("label");break;default:a=e.text()}a.length>0&&(v[t]=r(a.toUpperCase()+a.toLowerCase()+v[t]).replace(/\s+/g,""))}}),n.each(v,function(e,t){0===t.length&&(delete v[e],g.splice(g.indexOf(e),1))}),g.length}function c(e){var r=null,a=n.Deferred();return!1!==e&&"undefined"!=typeof angular?p():(y?(n("head").append(n("<script>").attr({src:y,type:"text/javascript"})),r=t.setInterval(function(){"object"==typeof t.Ts&&(t.clearInterval(r),a.resolve(t.Ts))},50)):a.reject(new Error("Missing TypeSquare API Url.")),a)}function o(){return j&&"rejected"!==j.state()||(j=c()),j}function s(e){return e.split(",")[0].replace(/^[\s"']+|[\s"']+$/g,"")}function i(){return h.length||(h=n("<style>").attr({type:"text/css",id:"jd-fontselect-typesquare-fonts"}),n("head").append(h)),h}function u(e){var r="",a=i(),c=n.Deferred(),o=0;return n.each(v,function(n,i){function u(e){if("object"!=typeof e||!e.data||!/@font-face/.test(e.data))return c.reject(new Error("Invalid TypeSquare API response."));r+=e.data,0==--o&&(a.text(r),c.resolve())}var f,l=s(n);o++,f=t.name,e.dynamicCss(u,i,l,l,""),t.name=f}),c}function f(e){y=e}function l(e){"string"==typeof e&&f(e),a()&&o().then(u)}var p,d="typesquare",y=!1,v={},g=[],h=[],j=!1;p=function(){try{var e=n.Deferred(),t=angular.element(document).injector().get("jdFontselectTypesquareService");return e.resolve(t)}catch(e){return c(!1)}},l.setScriptUrl=f,e.angularFontselectUpdateTypesquare=l})}(e,window)}).call(t,n(1))},1500:function(e,t,n){n(1486),function(e,t){"use strict";e(function(){e.angularFontselectUpdateTypesquare(t.dmp.typesquareFontApiScriptUrl)})}(n(1),n(2))}});
+//# sourceMappingURL=sourcemaps/99.9600211962be405485ad.js.map

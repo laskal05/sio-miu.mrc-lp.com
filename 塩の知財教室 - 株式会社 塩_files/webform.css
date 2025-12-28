@@ -1,0 +1,440 @@
+#mrc_webform, #mrc_download {
+  /* http://d.hatena.ne.jp/n-yuji/20130225/p1 */
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 12px !important;
+  text-align: center !important;
+}
+#mrc_webform table.mrc_webform_questionnaire,
+#mrc_download table.mrc_webform_questionnaire {
+  border: none !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  text-align: left !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 98% !important;
+  table-layout: auto !important;
+}
+#mrc_webform .mrc_webform_row th,
+#mrc_webform .mrc_webform_row td,
+#mrc_download .mrc_webform_row th,
+#mrc_download .mrc_webform_row td {
+  border: none !important;
+  text-align: left !important;
+  padding: 0px 0px 8px 0px !important;
+  width: auto !important;
+}
+.mrc_webform_row .mrc_webform_q {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  border: 1px solid #eee !important;
+  padding: 5px 8px !important;
+}
+.mrc_webform_row .mrc_webform_a {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 12px !important;
+  border-right: 1px solid #eee !important;
+  border-left: 1px solid #eee !important;
+  border-bottom: 1px solid #eee !important;
+  padding: 5px 8px !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='text'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='text'],
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='date'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='date'],
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='number'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='number'],
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='email'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='email'],
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='tel'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='tel'] {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #AAA #CCC #CCC #AAA !important;
+  padding: 2px !important;
+  background-color: white !important;
+  text-align: left !important;
+  width: auto !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a label.mrc_webform_overlimit,
+#mrc_webform .mrc_webform_row .mrc_webform_a input[disabled],
+#mrc_download .mrc_webform_row .mrc_webform_a label.mrc_webform_overlimit,
+#mrc_download .mrc_webform_row .mrc_webform_a input[disabled] {
+  color: gray !important;
+  cursor: not-allowed !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a input[disabled],
+#mrc_download .mrc_webform_row .mrc_webform_a input[disabled] {
+  background-color: #eee !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='checkbox'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='checkbox'] {
+  -webkit-appearance: checkbox !important;
+  -moz-appearance: checkbox !important;
+  appearance: checkbox !important;
+  margin: 3px 3px 5px 4px !important;
+  border-style: none !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
+#mrc_webform .mrc_webform_save_custinfo_message input[type='checkbox'],
+#mrc_download .mrc_webform_save_custinfo_message input[type='checkbox'] {
+  -webkit-appearance: checkbox !important;
+  -moz-appearance: checkbox !important;
+  appearance: checkbox !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='radio'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='radio'] {
+  -webkit-appearance: radio !important;
+  -moz-appearance: radio !important;
+  appearance: radio !important;
+  margin: 3px 3px 3px 5px !important;
+  border-style: none !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a select,
+#mrc_download .mrc_webform_row .mrc_webform_a select {
+  -webkit-appearance: menulist !important;
+  -moz-appearance: menulist !important;
+  appearance: menulist !important;
+  width: auto !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a textarea,
+#mrc_download .mrc_webform_row .mrc_webform_a textarea {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #AAA #CCC #CCC #AAA !important;
+  padding: 2px !important;
+  background-color: white !important;
+  width: auto !important;
+}
+#mrc_webform .mrc_webform_row input[type='text'],
+#mrc_webform .mrc_webform_row input[type='date'],
+#mrc_webform .mrc_webform_row input[type='number'],
+#mrc_webform .mrc_webform_row input[type='email'],
+#mrc_webform .mrc_webform_row input[type='tel'],
+#mrc_webform .mrc_webform_row select,
+#mrc_download .mrc_webform_row input[type='text'],
+#mrc_download .mrc_webform_row input[type='date'],
+#mrc_download .mrc_webform_row input[type='number'],
+#mrc_download .mrc_webform_row input[type='email'],
+#mrc_download .mrc_webform_row input[type='tel'],
+#mrc_download .mrc_webform_row select {
+  margin-bottom: 3px !important;
+}
+#mrc_webform span.mrc_webform_req,
+#mrc_download span.mrc_webform_req {
+  padding: 2px 4px !important;
+  margin: 2px !important;
+  display: inline-block !important;
+  font-weight: normal !important;
+}
+#mrc_webform div.mrc_webform_q span,
+#mrc_download div.mrc_webform_q span {
+  margin: 0 !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a label,
+#mrc_download .mrc_webform_row .mrc_webform_a label {
+  width: auto !important;
+  display: inline-block !important;
+}
+#mrc_webform .mrc_webform_row .mrc_webform_a span.mrc_webform_group,
+#mrc_download .mrc_webform_row .mrc_webform_a span.mrc_webform_group {
+  width: auto !important;
+  display: inline-block !important;
+}
+#mrc_webform .mrc_webform_custtitle th,
+#mrc_webform .mrc_webform_custinfo th,
+#mrc_webform .mrc_webform_custinfo td,
+#mrc_download .mrc_webform_custtitle th,
+#mrc_download .mrc_webform_custinfo th,
+#mrc_download .mrc_webform_custinfo td {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 12px !important;
+  padding: 5px 8px !important;
+  border: 1px solid #eee !important;
+}
+#mrc_webform .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input {
+  width: 300px !important;				/* < IE8 */
+  width: -webkit-calc(98% - 40px) !important;	/* Chrome19-25 */
+  width: -moz-calc(98% - 40px) !important;		/* Firefox4-15 */
+  width: calc(98% - 40px) !important;
+}
+#mrc_webform .mrc_webform_questionnaire_en .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_en .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_webform .mrc_webform_questionnaire_de .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_de .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_webform .mrc_webform_questionnaire_fr .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_fr .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_webform .mrc_webform_questionnaire_it .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_it .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_webform .mrc_webform_questionnaire_vi .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_vi .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_webform .mrc_webform_questionnaire_id .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_id .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_webform .mrc_webform_questionnaire_es .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input,
+#mrc_download .mrc_webform_questionnaire_es .mrc_webform_row.mrc_webform_custinfo .mrc_webform_a input {
+  width: 300px !important;				/* < IE8 */
+  width: -webkit-calc(98% - 80px) !important;	/* Chrome19-25 */
+  width: -moz-calc(98% - 80px) !important;		/* Firefox4-15 */
+  width: calc(98% - 80px) !important;
+}
+#mrc_webform .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input {
+  width: 80px !important;
+}
+#mrc_webform .mrc_webform_questionnaire_en .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_en .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_webform .mrc_webform_questionnaire_de .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_de .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_webform .mrc_webform_questionnaire_fr .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_fr .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_webform .mrc_webform_questionnaire_it .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_it .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_webform .mrc_webform_questionnaire_vi .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_vi .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_webform .mrc_webform_questionnaire_id .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_id .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_webform .mrc_webform_questionnaire_es .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input,
+#mrc_download .mrc_webform_questionnaire_es .mrc_webform_row.mrc_webform_custinfo .mrc_webform_zipcode input {
+  width: 300px !important;				/* < IE8 */
+  width: -webkit-calc(98% - 80px) !important;	/* Chrome19-25 */
+  width: -moz-calc(98% - 80px) !important;		/* Firefox4-15 */
+  width: calc(98% - 80px) !important;
+}
+
+#mrc_webform .mrc_webform_message,
+#mrc_download .mrc_webform_message {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 12px !important;
+  margin-top: 5px !important;
+}
+#mrc_webform .mrc_webform_message label,
+#mrc_download .mrc_webform_message label {
+  margin: 0 !important;
+}
+
+#mrc_webform .mrc_webform_button,
+#mrc_download .mrc_webform_button {
+  margin-top: 10px !important;
+}
+#mrc_webform .mrc_webform_button button,
+#mrc_download .mrc_webform_button button {
+  color: #333 !important;
+  background-color: #fff !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  display: inline-block !important;
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+  padding: 6px 12px !important;
+  background-image: none !important;
+  width: 140px !important;
+  margin: 0 5px !important;
+}
+#mrc_webform .mrc_webform_button button:hover,
+#mrc_webform .mrc_webform_button button:focus,
+#mrc_download .mrc_webform_button button:hover,
+#mrc_download .mrc_webform_button button:focus {
+  background-color: #ebebeb !important;
+  border-color: #adadad !important;
+}
+#mrc_webform .mrc_webform_button button:active,
+#mrc_download .mrc_webform_button button:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125) !important;
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125) !important;
+}
+.mrc_webform_title, .mrc_webform_premsg, .mrc_webform_postmsg {
+  margin: 10px !important;
+  display: inline-block !important;
+  width: 100% !important;
+  text-align: left !important;
+}
+/* Correspondence to layout collapse for iPhone #2558 */
+#mrc_webform .mrc_webform_row .mrc_webform_a input[type='file'],
+#mrc_download .mrc_webform_row .mrc_webform_a input[type='file'] {
+  font-family: system-ui !important;
+  font-size: 11px !important;
+}
+
+/* modal */
+.mrc_webform_close {
+  float: right !important;
+  font-size: 21px !important;
+  font-weight: bold !important;
+  line-height: 1 !important;
+  color: #000 !important;
+  text-shadow: 0 1px 0 #fff !important;
+  filter: alpha(opacity=20) !important;
+  opacity: .2 !important;
+}
+.mrc_webform_close:hover,
+.mrc_webform_close:focus {
+  color: #000 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  filter: alpha(opacity=50) !important;
+  opacity: .5 !important;
+}
+button.mrc_webform_close {
+  -webkit-appearance: none !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+.mrc_webform_modal {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  z-index: 10000000 !important;
+  overflow: auto !important;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
+  outline: 0 !important;
+}
+.mrc_webform_modal .mrc_webform_modal_dialog {
+  -webkit-transform: translate(0, 0) !important;
+      -ms-transform: translate(0, 0) !important;
+          transform: translate(0, 0) !important;
+  position: relative !important;
+  width: 600px !important;
+  margin: 30px auto !important;
+}
+@media (max-width: 639px) {
+  .mrc_webform_modal .mrc_webform_modal_dialog {
+    width: 400px !important;
+  }
+}
+@media (max-width: 399px) {
+  .mrc_webform_modal .mrc_webform_modal_dialog {
+    width: 310px !important;
+  }
+}
+.mrc_webform_modal .mrc_webform_modal_content {
+  position: relative !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 1px solid #999 !important;
+  border: 1px solid rgba(0, 0, 0, .2) !important;
+  border-radius: 6px !important;
+  outline: none !important;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5) !important;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, .5) !important;
+}
+.mrc_webform_modal .mrc_webform_modal_header {
+  min-height: 16.42857143px !important;
+  padding: 15px !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+}
+.mrc_webform_modal .mrc_webform_modal_header .mrc_webform_close {
+  margin-top: -2px !important;
+}
+.mrc_webform_modal .mrc_webform_modal_header h4 {
+  position: static !important;
+}
+.mrc_webform_modal .mrc_webform_modal_title {
+  text-align: left !important;
+  margin: 0 !important;
+  line-height: 1.42857143 !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+}
+.mrc_webform_modal .mrc_webform_modal_body {
+  position: relative !important;
+  padding: 20px !important;
+}
+.mrc_webform_modal .mrc_webform_modal_footer {
+  padding: 19px 20px 20px !important;
+  margin-top: 15px !important;
+  text-align: right !important;
+  border-top: 1px solid #e5e5e5 !important;
+}
+.mrc_webform_modal .mrc_webform_modal_body iframe {
+  width: 100% !important;
+  border: none !important;
+}
+
+/* Confirm */
+.mrc_webform_confirm_message {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 14px !important;
+}
+.mrc_webform_confirm_a.text {
+  white-space: pre-wrap !important;
+}
+.mrc_webform_confirm_a.checkbox {
+  white-space: pre-line !important;
+}
+.mrc_webform_confirm_a_prefix, .mrc_webform_confirm_a_postfix {
+  color: gray !important;
+}
+.mrc_webform_confirm_email {
+  background-color: #f8f8f8 !important;
+  border: 1px solid #f0f0f0 !important;
+  border-radius: 4px !important;
+  color: #333333 !important;
+  margin-bottom: 20px !important;
+  margin-left: 20px !important;
+  padding: 15px !important;
+}
+.mrc_webform_reenter_email {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+.mrc_webform_reenter_email_form {
+  width: 200px !important;
+}
+.mrc_webform_confirm_countdown {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 24px !important;
+  padding-left: 30px !important;
+}
+.mrc_webform_error {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 14px !important;
+  color: #a94442 !important;
+}
+.mrc_webform_error_required {
+  font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif !important;
+  font-size: 14px !important;
+  list-style-type: none !important;
+}
+#mrc_download_modal_desc {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  padding: 20px 20px 5px 20px !important;
+}
+.mrc_webform_verifycode_input {
+  width: 50% !important;
+  height: 35px !important;
+  font-size: 22px !important;
+  border: 1px solid !important;
+  border-radius: 5px !important;
+  border-color: #ccc !important;
+  outline: none !important;
+  padding-left: 10px !important;
+  margin: 20px 0 !important;
+}
+.mrc_webform_verify_apply:hover {
+  background-color: #c0c0c0c0 !important;
+  cursor: pointer !important;
+}
+.mrc_webform_verify_error_message {
+  font-size: 14px !important;
+  color: red !important;
+  margin-bottom: 12px !important;
+}
+
+/* upload */
+img.mrc_webform_file_icon_trash, img.mrc_webform_file_icon_spinner {
+  width: auto !important;
+}
